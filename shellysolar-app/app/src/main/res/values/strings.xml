@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShellySolar</string>
+
+    <!-- BLE Setup -->
+    <string name="ble_setup_title">Shelly BLE Setup</string>
+    <string name="ble_setup_description">Scan for nearby Shelly BLE devices to configure their outbound WebSocket connection to ShellySolar.</string>
+    <string name="scan_devices">Scan for Shelly Devices</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="scanning">Scanning for Shelly BLE devices\u2026</string>
+    <string name="no_devices_found">No Shelly devices found. Make sure your devices have BLE enabled.</string>
+    <string name="scan_complete">Scan complete. Found %d device(s).</string>
+    <string name="found_devices">Found %d Shelly device(s)\u2026</string>
+    <string name="tap_scan">Tap \"Scan\" to find nearby\nShelly BLE devices</string>
+
+    <!-- WS Config Dialog -->
+    <string name="configure_device">Configure: %s</string>
+    <string name="ws_config_description">Configure outbound WebSocket to connect this Shelly device to your ShellySolar server.</string>
+    <string name="ws_server_hint">WebSocket Server URL</string>
+    <string name="ws_token_hint">Auth Token (optional)</string>
+    <string name="ws_config_note">The device will connect to this WebSocket server and send status updates. If a token is provided, it will be appended as ?token= parameter.</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="get_info">Get Info</string>
+
+    <!-- Menu -->
+    <string name="action_ble_setup">BLE Setup</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_home">Home</string>
+</resources>
