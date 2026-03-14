@@ -10,5 +10,7 @@
 local.properties
 /app/build
 /app/release
-*.apk
 *.aab
+/apk-build/out/
+/apk-build/debug.keystore
+!ShellySolar.apk

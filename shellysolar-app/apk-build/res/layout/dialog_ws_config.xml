@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configure outbound WebSocket to connect this Shelly device to your ShellySolar server."
+        android:textSize="14sp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WebSocket Server URL"
+        android:textSize="12sp"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:id="@+id/input_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textUri"
+        android:textSize="14sp"
+        android:hint="wss://shellysolar.com/ws"
+        android:paddingBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Auth Token (optional)"
+        android:textSize="12sp"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:id="@+id/input_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        android:paddingBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The device will connect to this server and send status updates. Token is appended as ?token= parameter."
+        android:textSize="12sp"
+        android:textColor="#888888" />
+
+</LinearLayout>

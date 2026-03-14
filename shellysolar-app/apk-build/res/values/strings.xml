@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShellySolar</string>
+    <string name="ble_setup_title">Shelly BLE Setup</string>
+    <string name="scan_devices">Scan for Shelly Devices</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="apply_config">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="get_info">Get Info</string>
+</resources>
